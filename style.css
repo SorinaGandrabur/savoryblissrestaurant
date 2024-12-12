@@ -3,7 +3,7 @@
       
     body {
         /*culoarea corpului*/
-        background-image:url(bg10.jpg) ;
+        background-color:#EAA52C ;
        
     }
     header{
@@ -13,24 +13,28 @@
     
     nav {
         /*bara de sus*/
-        position: sticky;
-        top: 0;
-        font-family: "Akaya Telivigala", system-ui;
+      background-color: #414141;
+      
     }
+    .nav-link:hover {
+        color:#fff;
+    }
+   
     nav img{
         width: 65px;
     }
     nav ul {
         display: flex;
         justify-content: space-evenly;
-        padding: 10px;
-        background: rgb(73, 54, 40);
         color: rgb(214, 192, 179);
         font-size: 20px;
         list-style-type: none;
         align-items: center;
     }
-
+    a.nav-link.active{
+        border-color: none;
+        background-color: none;
+    }
     nav li a {
         text-decoration: none;
         color: rgb(228, 224, 225);
