@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Imperial+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Savory Bliss</title>
@@ -24,216 +24,116 @@
 
     body {
         /*culoarea corpului*/
-        background-color:#EAA52C ;
-       
-    }
-    header{
-        background-color: #7B9DA5;
-        
+        background-color: #041A26;
     }
     
-    nav {
-        /*bara de sus*/
-        background-color:#041A26;         
+    .main-color{
+        color: #C2D4D3;
     }
-    .nav-link {
-        color: #fff;
+
+    .headfoot-color{
+        background-color: #041A26;
     }
-    .nav-link:hover {
-        color:#fff;
+    
+  
+    .navbar a{
+      padding: 10px;
+      color:#fff;
+      text-decoration: none;
     }
-    .navbar-toggler-icon{
-        color: #fff;
-    }
+    
+    
    
     nav img{
         width: 65px;
     }
+    .carousel-inner {
+        display: flex;
+        max-height: 500px;
+    }
     .carousel-inner img{
     object-fit: cover;
     } 
+
     h1{
-        font-family: "Lora", serif;
+        font-family:"Josefin";
         text-align: center;
         font-size: 200px;
-        color: #C2D4D3;
+        color:#C2D4D3;
         margin: 0;
     }
-    h2 {
-        color: rgb(73, 54, 40);
+    h2{
+        margin: 10px;
+        font-family:"Josefin";
+        text-align: center;
+        color: #ffffff;
         font-size: 50px;
-        font-family: "Akaya Telivigala", system-ui;
-        text-align: center;
     }
-
-    h3 {
+    h3{
+        margin: 10px;
+        font-family:"Josefin";
         text-align: center;
+        color: #ffffff;
         font-size: 40px;
-        color: rgb(73, 54, 40);
-        font-family: "Pacifico";
     }
-    h4{
-        text-align:left;
-        font-size: 30px;
-        color: rgb(73, 54, 40);
-        font-family: "Pacifico";
-    }
-    p {
-        color: rgb(73, 54, 40);
-        padding: 20px;
-        font-family: "Pacifico";
-        font-size: 30px;
-        text-align: center;
-    }
-
-
-
-    .section img{
-        height: 45px;
-        margin: auto;
-    }
-
-   
-
-    .menu {
-        /*meniul restaurantului*/
-        background-image: url(bg10.jpg);
-        font-family: "Pacifico";
-        color: rgb(73, 54, 40);
-    }
-
-    .menu ul{
-        color: rgb(73, 54, 40);
-        font-size: 20px;
-    }
-
-    .menu a {
-        color: rgb(73, 54, 40);
-    }
-    .poze img{
-        width: 200px;
-    }
-
-    .activitati {
-        /*camera pentru copii*/
-        display: flex;
-        margin: 5px;
-        padding: 10px;
-        font-family: "Pacifico";
-    }
-    .activitati img{
-        width: 45px;
-        margin:auto;
-    }
-
-    .jocuri {
-        margin: 5px;
-        outline: 2px solid rgb(228, 224, 225);
-        text-align: center;
-    }
-
-    .jocuri li {
-        font-size: 16px;
-        color: rgb(73, 54, 40);
-       
-    }
-
-    .utilitati{
-         /*parcare și wifi */
-        display: flex;
-        margin: 5px;
-        padding: 10px;
-        font-family: "Pacifico";
-    }
-    
-    .parfi{
-        display: flex;
-        flex-direction: column;
-        margin: 5px;
-        padding: 10px;
-        outline: 2px solid rgb(228, 224, 225);
-        color: rgb(73, 54, 40);
-        align-items: center;
-    }
+   .row{
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
     
 
-    .oameni {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        outline: 2px solid rgb(228, 224, 225);
-        margin: 5px;
-    }
-
-    .oameni img {
-        border-radius: 50%;       
-        height: 150px;
-        margin: 5px;
-    }
-
-
-  
-
-    .row {
-        /*la pagina echipă*/
-        display: flex;
-        flex-wrap: wrap;
-        background-image: url(bg10.jpg);
-    }
- 
-    .row img{
-        width: 100%;
-        border-radius: 15px; 
-    }
-
-    .row p{
-        text-align: center;
-        font-size: 20px;
-    }
+   }
+   .col{
+    text-align: left;
+   }
+   .col img{
+    width: 75%;
+    padding: 10px;
+    align-self: center;
    
-    .col {
-        border: 2px solid rgb(73, 54, 40);
-        border-radius: 15px;
-        width: 30%; 
-        margin: 10px;     
-    }
- 
+   }
+   .btn {
+    background-color: #041A26;
+    color: #fff;
+    margin: 10px;
 
-
-    .acasa {
-        /*contacte*/
-        display: flex;
-        background-image: url(bg10.jpg);
-        font-family: "Pacifico";
-        color: rgb(73, 54, 40);
-        font-size: 30px;
-        text-align: center;
-    }
-    .acasa img{
-        width: 40px;
-        margin: auto;
-    }
-    .acasa ul{
-        list-style-type: none;
-    }
-    .about iframe{
-        height: 100%;
-    }
-
+    
+   }
+   .btn a{
+    color: #fff;
+    text-decoration: none;
+   }
+   .row-2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+   .col-lg-3,.col-md-6,.col-sm-12{
+    color: #fff;
+   }
+   .grid{
+    display: flex;
+    color: #fff;
+   }
+   
 
     .more {
     /*footer*/
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: rgb(73, 54, 40);
-        color: rgb(228, 224, 225) ;
+        text-align: center;
        
+    }
+    .more ul{
+        list-style: none;
     }
 
    .more h2{
         color: rgb(228, 224, 225) ;
-        font-size: 30px;
+        font-size: 20px;
         margin: 5px;
      }
    
@@ -241,28 +141,16 @@
         text-decoration: none;
         color: rgb(228, 224, 225);
     }
-
-   .loc{
-        margin : 85px;    
-    }
-
-    .loc img{
-        width: 50px;
-        margin:10px;
-    }
-   .loc ul{
-        list-style-type: none;
-    }
-
-    .icon{
-        /*logo-ul și plăntuța*/
+    .loc{
         display: flex;
-        align-items: center;
+        justify-content: center;
     }
-
+    
     .icon img{
-        height: 70px;
+        width: 20px;
+        margin: 15px;
     }
+    
         </style>
     
 </head>
@@ -270,8 +158,8 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <header>
-    <nav>
+    <header class="headfoot-color">
+    
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="logo.png"></a>
@@ -279,22 +167,21 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="meniu.html">Meniu</a>
+                    <a href="#meniu">Meniu</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="echipa.html">Echipă</a>
+                    <a href="#echipa">Echipă</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contacte.html">Contacte</a>
+                    <a href="#contacte">Contacte</a>
                   </li>
-
                 </ul>
               </div>
             </div>
         </nav>
-        </nav>
+       
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -302,9 +189,6 @@
               </div>
               <div class="carousel-item">
                 <img src="bucatarie.jpg" class="d-block w-100" alt="bucătărie">
-              </div>
-              <div class="carousel-item">
-                <img src="bucatar1.jpg" class="d-block w-100" alt="poză la mâncare cu telefonul">
               </div>
               <div class="carousel-item">
                   <img src="tigai.jpg" class="d-block w-100" alt="...">
@@ -325,170 +209,148 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    <h1 class="text" class="lora">Savory Bliss Restaurant</h1>
+
+    <h1 class="text">Savory Bliss Restaurant</h1>
+
     </header>
-
-    <div class="section">
-            <h2>Despre noi</h2>
-        
-            <p>
-                Savory Bliss nu este doar un restaurant,este o experiență.
-                La Savory Bliss, fiecare fel de mâncare este o capodoperă, combinând ingrediente proaspete,
-                de proveniență locală, cu tehnici inovatoare pentru a crea o călătorie culinară de neuitat.
-                Atmosfera caldă și primitoare, completată de un serviciu impecabil, asigură că fiecare vizită se simte
-                ca o sărbătoare.
-                Perfect pentru cine intime, reuniuni de familie și ocazii speciale, restaurantul nostru este destinația
-                supremă pentru cei care caută atât confort cât și rafinament în fiecare îmbucătură.
-                Meniul este conceput pentru a satisface toate gusturile și a oferi o experiență culinară unică.
-                Aici este locul perfect pentru a reflecta, a citi, a iubi alături de persoana dragă sufletului.
-                Restaurantul oferă
-                căldură și armonie tuturor clienților noștri. La noi toate gusturile sunt deosebite iar bucătarii sunt
-                unii dintre cei mai buni din țară.
-                Vino și experimentează gustul desăvârșit al perfecțiunii culinare la Savory Bliss!
+    <div class="container">
+        <div class="row">
+          <div class="col">
+           <h2>Despre noi</h2>
+           <p>  Savory Bliss nu este doar un restaurant,este o experiență.
+            La Savory Bliss, fiecare fel de mâncare este o capodoperă, combinând ingrediente proaspete,
+            de proveniență locală, cu tehnici inovatoare pentru a crea o călătorie culinară de neuitat.
+            Atmosfera caldă și primitoare, completată de un serviciu impecabil, asigură că fiecare vizită se simte
+            ca o sărbătoare.
             </p>
+            <p>
+            Perfect pentru cine intime, reuniuni de familie și ocazii speciale, restaurantul nostru este destinația
+            supremă pentru cei care caută atât confort cât și rafinament în fiecare îmbucătură.
+            Meniul este conceput pentru a satisface toate gusturile și a oferi o experiență culinară unică.
+            Aici este locul perfect pentru a reflecta, a citi, a iubi alături de persoana dragă sufletului.</p>
+            <button type="button" class="btn">Meniu</button>
+            <button type="button" class="btn"><a href="https://web.whatsapp.com/">Rezervare</a></button>
+          </div>
 
+          <div class="col">
+            <img src="spices.jpg">
+          </div>
         </div>
-   
+      </div>
 
 
-    
-
-   
-
-    
-            <h2>Facilități</h2>
-
-            <div class="activitati">
-                <div class="jocuri">
-                    <h3>Jocuri și Activități</h3>
-                    <img src="console.png" alt="consolă">
-                    <ul>
-                        <li>Zona de Joacă: Dotată cu jucării educative, cuburi de construit, puzzle-uri și
-                            alte jocuri interactive care încurajează creativitatea și dezvoltarea copiilor.</li>
-                        <li>Colțul de Lectură: Un loc liniștit cu perne confortabile și o selecție variată de cărți
-                            pentru toate vârstele.</li>
-                        <li>Atelier de Artă: Echipat cu materiale de artizanat, creioane colorate,
-                            hârtie și alte materiale pentru activități creative.</li>
-                    </ul>
-                </div>
-
-                <div class="jocuri">
-                    <h3>Siguranță și Confort</h3>
-                    <img src="secure-shield.png" alt="semnul de securitate">
-                    <ul>
-                        <li>Supraveghere: Personal calificat și prietenos asigură supravegherea copiilor, garantând
-                            siguranța și bunăstarea lor.</li>
-                        <li>Mobilier: Mobilier ergonomic și sigur, adaptat pentru copii, pentru a preveni orice
-                            accident.</li>
-                        <li>Igienă: Zone de igienizare și acces facil la toalete pentru copii.</li>
-                    </ul>
-                </div>
-
-                <div class="jocuri">
-                    <h3>Facilități Adiționale</h3>
-                    <img src="confetti.png" alt="confetti">
-                    <ul>
-                        <li>Spațiu de Relaxare: O zonă de odihnă pentru cei mici care au nevoie de o pauză după joacă.
-                        </li>
-                        <li>Evenimente Speciale: Organizăm activități tematice și ateliere de creație în anumite zile
-                            pentru a oferi copiilor o experiență de neuitat.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="utilitati">
-                <div class="parfi">
-                    <h3>Parcare</h3>
-                    <img src="car.png" alt="mașină">
-                    <ul>
-                        <li>Parcare proprie: Locuri de parcare disponibile lângă restaurant, inclusiv pentru persoanele cu
-                            dizabilități.</li>
-                        <li>Parcare pe stradă: Locuri de parcare publice în apropierea restaurantului.</li>
-                        <li>Parcare subterană: O opțiune adițională pentru confort și protecție împotriva intemperiilor.
-                        </li>
-                        <li>Servicii de valet: Disponibile pentru o experiență fără griji, contra unei taxe adiționale.</li>
-                    </ul>
-                </div>
-
-                 <div class="parfi">
-                        <h3>WI-FI</h3>
-                        <img src="wifi.png" alt="semnul de la WI-FI">
-                    <ul>
-                        <li>La sosire, vei primi detalii despre rețeaua WiFi și parola de acces de la personalul nostru prietenos.</li>
-                        <li>Rețeaua noastră WiFi este protejată prin măsuri de securitate avansate.</li>
-                        <li>Conectivitatea noastră extinsă îți permite să rămâi online, oriunde te-ai afla în Savory Bliss.</li>
-                    </ul>
-                </div>
-             </div>
-
-
-    
-        <h2>Recenzii</h2>
-        <div class="testimoniale">
-            <div class="oameni">
-                <img src="radu.jpg" alt="un băiat care zâmbește în poza alb-negru">
-                <p>Radu Dobre: "Savory Bliss este definitia rafinamentului culinar. De la aperitive la deserturi,
-                    fiecare fel de mâncare a fost perfect. WiFi-ul rapid a fost un plus, iar personalul a fost extrem
-                    de prietenos și profesionist. Recomand cu încredere!"
-                </p>
-            </div>
-
-            <div class="oameni">
-                <img src="elena.jpg" alt="o femeie brunetă pozată dintr-o parte">
-                <p>Elena Vasile: "Un loc minunat pentru întreaga familie! Camera de copii este bine echipată și sigură,
-                    iar mâncarea este absolut delicioasă. Serviciul de valet și parcarea subterană sunt foarte
-                    convenabile.
-                    Cu siguranță vom reveni."
-                </p>
-            </div>
-
-            <div class="oameni">
-                <img src="ion.jpg" alt="un bărbat în cămașă care zâmbește">
-                <p>Ion Marinescu: "Savory Bliss a fost o alegere perfectă pentru cina noastră aniversară. Am fost plăcut
-                    surprinși de
-                    meniul de degustare și de serviciile excelente. Este locul ideal pentru a sărbători momente
-                    speciale."
-                </p>
-            </div>
-
-            <div class="oameni">
-                <img src="andrei.jpg" alt="un bărbat cu ochelari">
-                <p>Andrei Ionescu: "Savory Bliss este adevărata oază culinară! Mâncarea este divină, iar serviciul este
-                    impecabil.
-                    Am fost foarte impresionat de camera de copii, care a permis celor mici să se distreze în timp ce
-                    noi, adulții,
-                    ne-am bucurat de o cină relaxantă. Recomand cu căldură!"
-                </p>
-            </div>
+      <div class="container">
+        <h2>Meniu</h2>
+          <h3>Mâncare</h3>
+      <div class="row-2">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="burger-removebg-preview.png">
         </div>
-    </div>
-
-    
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>Feluri principale:</h4>
+                    <ul>
+                        <li>File de somon la grătar cu sos de lămâie și ierburi...50RON</li>
+                        <li>Burger Savory Bliss.............35 RON</li>
+                        <li>Piept de pui umplut cu spanac și brânză feta...........35RON</li>
+                        <li>Risotto cu ciuperci și trufe...........................40RON</li>
+                    </ul>
+        </div>
         
-            
 
-<footer>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+        <h4>Salate:</h4>
+                    <ul>
+                        <li>Salată Caesar cu pui................................30RON</li>
+                        <li>Salată de quinoa cu avocado și rodii................32RON</li>
+                        <li>Salată de rucola cu pere și brânză gorgonzola.......27RON</li>
+                        <li>Salată de spanac cu nuci și dressing de rodii.......32RON</li>
+                    </ul>
+                  </div>
+        </div>
+      
+        <h3>Băuturi</h3>
+        <div class="grid "> 
+          <div class="g-col-6 g-col-md-4">
+              <h4>Alcoolice</h4>
+                      <ul>
+                        <li>Argiano Brunello di Montalcino.................450RON</li>
+                        <li>Occidental-Kistler Vineyards 'Freestone-Occidental' Pinot Noir......380RON</li>
+                        <li>Chateau Lynch-Bages............................700RON</li>
+                        <li>Raen Royal St. Robert Cuvee Pinot Noir.........380RON</li>
+                        <li>Pina Colada........30RON</li>
+                        <li>Daiquiri...........30RON</li>
+                        <li>Bloody Mary........35RON</li>
+                        <li>Negroni............40RON</li>
+                        <li>Mai Tai............35RON
+                        </li>
+                      </ul>
+            </div>
+
+              <div class="g-col-6 g-col-md-4">       
+              <h4>Non-alcoolice</h4>   
+                      <ul>
+                          <li>Espresso.............10RON</li>
+                          <li>Americano............12RON</li>
+                          <li>Cappuccino...........15RON</li>
+                          <li>Latte................18RON</li>
+                          <li>Macchiato............12RON</li>
+                          <li>Suc de Portocale......15RON</li>
+                          <li>Suc de Mere...........12RON</li>
+                          <li>Suc de Ananas.........15RON</li>
+                          <li>Suc de Grapefruit.....15RON</li>
+                      </ul>
+                    </div>
+
+                    <div class="g-col-6 g-col-md-4">
+                      <img src="drinks1-removebg-preview.png">
+                    </div>
+                    </div>
+
+                    <div class="row-2 g-2"> 
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="fluffy-removebg-preview.png">
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h3>Deserturi</h3>
+                        <ul>
+                        <li>Tiramisu.................25RON</li>
+                        <li>Cheesecake...............28RON</li>
+                        <li>Lava Cake................30RON</li>
+                        <li>Panna Cotta..............22RON</li>
+                        <li>Mousse de Ciocolată......24RON</li>
+                        <li>Profiterol...............26RON</li>
+                        <li>Sorbet...................20RON</li>
+                        <li>Crème Brûlée.............28RON</li>
+                        </ul>
+                      </div>
+
+                      </div>
+      </div>                         
+          
+<footer class="headfoot-color">
     
     <div class="more">
-        <div class="icon">
-            <a href="index.html"><img src="logo.png" alt="logo-ul site-ului">
-        </div>
-        <div class="loc">
-        <h2>Locație</h2>
-        <a href="https://www.google.com/maps/place/Breb/@47.7449193,23.8761232,3536m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4737c9161d8e7d8b:0x3b54e4a428598149!8m2!3d47.7416825!4d23.8993017!16s%2Fg%2F121kq81r?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Satul Breb, Județul Maramureș, România.</a>
-        </div>
-        <div class="loc">
-        <h2>Contact</h2>
+        <div class="contact">
+        <h2>Savory Bliss Restaurant</h2>
             <ul>
-            <li>+40547583723</li>
+            <li><a href="https://web.whatsapp.com/" target="_blank">+40547583723</li>
             <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">contact@savorybliss.ro</a></li>
+            <a href="https://www.google.com/maps/place/Breb/@47.7449193,23.8761232,3536m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4737c9161d8e7d8b:0x3b54e4a428598149!8m2!3d47.7416825!4d23.8993017!16s%2Fg%2F121kq81r?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Satul Breb, Județul Maramureș, România.</a>
             </ul>
-        </div>
         
         <div class="loc">
+            <div class="icon">
         <a href="https://www.instagram.com/" target="_blank"><img src="instagram-logo.png" alt="logo-ul de la instagram"></a>
+        </div>
+        <div class="icon">
         <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="logo-ul de la facebook"></a>
+        </div>
+        <div class="icon">
         <a href="https://web.whatsapp.com/" target="_blank"><img src="whatsapp.png" alt="logo-ul de la whatsapp"></a>
+        </div>
+        </div>
+        <div>
+            <div class="icon main-color"><img src="copyright.png">Toate drepturile sunt rezervate.</div>
     </div>
 
 </footer>
