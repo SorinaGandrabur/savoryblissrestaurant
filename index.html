@@ -62,7 +62,12 @@
     .carousel-inner img {
       object-fit: cover;
     }
+    @media(min-width:320px){
+      .col-12{
+        object-fit: cover;
+      }
 
+    }
     h1 {
       font-family: "MonteCarlo", serif;
       text-align: center;
@@ -159,12 +164,6 @@
       margin-left: 50px;
       margin-right: 50px;
       align-items: center;
-    }
-
-    @media(max-width:576px) {
-      .row {
-        margin: 0;
-      }
     }
 
     .col {
