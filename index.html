@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
@@ -74,14 +75,26 @@
     .carousel-inner img {
       object-fit: cover;
     }
-    
+
+
     h1 {
       font-family: "Josefin";
       text-align: center;
-      font-size: 200px;
+      font-size: 150px;
       color: #C2D4D3;
       margin: 0;
     }
+    @media (max-width: 768px) {
+  h1 {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+  }
+}
 
     h2 {
       margin: 10px;
@@ -137,7 +150,8 @@
     .btn a {
       text-decoration: none;
     }
-
+    
+    
     .row-2 {
       display: flex;
       align-items: center;
@@ -149,13 +163,38 @@
     .col-sm-12 {
       color: #fff;
     }
+    @media(max-width:1200px){
+      .col-lg-6{
+        width: 50%;
+      }
+    }
+    @media(max-width:768px){
+      .col-lg-6{
+        width: 100%;
+      }
+    }
 
+    
     .card {
       width: 20%;
       margin: 20px;
   
     }
-
+    @media(max-width:1440px){
+      .card{
+        width: 20%;
+      }
+    }
+    @media(max-width:992px){
+      .card{
+        width: 50%;
+      }
+    }
+    @media(max-width:425px){
+      .card{
+        width: 100%;
+      }
+    }
     .card-title {
       font-size: 25px
     }
@@ -276,22 +315,23 @@
   </header>
   <div class="container">
     <div class="fundal">
+ 
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
           <h2 class="albastru-text">Despre noi</h2>
 
-          <p> Savory Bliss nu este doar un restaurant,este o experiență.
+          <p class="albastru-text"> Savory Bliss nu este doar un restaurant,este o experiență.
             La Savory Bliss, fiecare fel de mâncare este o capodoperă, combinând ingrediente proaspete,
             de proveniență locală, cu tehnici inovatoare pentru a crea o călătorie culinară de neuitat.
             Atmosfera caldă și primitoare, completată de un serviciu impecabil, asigură că fiecare vizită se simte
             ca o sărbătoare.
           </p>
-          <p>
+          <p class="albastru-text">
             Perfect pentru cine intime, reuniuni de familie și ocazii speciale, restaurantul nostru este destinația
             supremă pentru cei care caută atât confort cât și rafinament în fiecare îmbucătură.
             Meniul este conceput pentru a satisface toate gusturile și a oferi o experiență culinară unică.
             Aici este locul perfect pentru a reflecta, a citi, a iubi alături de persoana dragă sufletului.</p>
-           
+       
           <a href="#meniu"><button type="button" class="btn">Meniu</button></a>
           <a href="https://web.whatsapp.com/"><button type="button" class="btn">Rezervare</button></a>
         </div>
@@ -318,7 +358,7 @@
       <div class="col-lg-4 col-md-6 col-sm-12">
         <img src="burger-removebg-preview.png" alt="burger pe o farfurie albă cu pete negre">
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-6">
         <h4>Feluri principale:</h4>
         <ul>
           <li>File de somon la grătar cu sos de lămâie și ierburi.....50RON</li>
