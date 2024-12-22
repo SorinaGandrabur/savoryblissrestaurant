@@ -6,18 +6,15 @@
   <meta name="author" content="Sorina Gandrabur">
   <meta name="keywords" content="restaurant, relaxare, odihnă">
   <meta name="description"
-    content="Această pagină este creată pentru a informa publicul despre restaurantul meu.
+  content="Această pagină este creată pentru a informa publicul despre restaurantul meu.
                                         Atmosfera de la Savory Bliss este definită de eleganță și confort. Decorul nostru modern, 
                                         cu accente de design clasic, creează un mediu plăcut și relaxant, ideal pentru prânzuri de afaceri, 
                                         cine romantice sau întâlniri cu prietenii. Muzica ambientală discretă completează perfect această atmosferă.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=MonteCarlo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <title>Savory Bliss</title>
@@ -53,6 +50,9 @@
     .margin {
       margin: 0px 30px 10px 30px;
     }
+    .card-margin{
+      margin: 0;
+    }
 
     .navbar a {
       padding: 10px;
@@ -78,9 +78,9 @@
 
 
     h1 {
-      font-family: "Josefin";
+      font-family: "MonteCarlo", serif;
       text-align: center;
-      font-size: 150px;
+      font-size: 200px;
       color: #C2D4D3;
       margin: 0;
     }
@@ -98,40 +98,67 @@
 
     h2 {
       margin: 10px;
-      font-family: "Josefin";
+      font-family: "Great Vibes", serif;
       text-align: center;
       color: #ffffff;
       font-size: 50px;
     }
     @media (max-width: 576px) {
   h2 {
-    font-size: 40px;
+    font-size: 25px;
+    margin-top: 15px;
   }
 }
 
-    h3 {
+    h3,h4{
       margin-top: 30px;
-      font-family: "Josefin";
+      font-family: "Great Vibes", serif;
       text-align: center;
       color: #ffffff;
       font-size: 40px;
     }
+    h4{
+      font-size:30px ;
+    }
     @media (max-width: 576px) {
   h3 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  h4 {
+    font-size: 15px;
   }
 }
 
     p {
+      font-family: "Roboto", serif;
+      font-style: italic;
       text-align: center;
-      font-size: 20px;
+      font-size:15px;
     }
-
+.font-p{
+  font-family: "Roboto", serif;
+      font-style: italic;
+}
+  
+    @media (max-width: 576px) {
+  p {
+    font-size: 10px;
+    margin: 10px;
+  }
+}
     ul {
       margin: 20px;
       text-decoration: none;
     }
-
+    @media (max-width: 576px) {
+   ul{
+    margin: 0;
+    font-size: 15px;
+  }
+}
     .row {
       margin-left: 50px;
       margin-right: 50px;
@@ -186,29 +213,27 @@
       margin: 20px;
   
     }
-    @media(max-width:1440px){
-      .card{
-        width: 20%;
-      }
-    }
     @media(max-width:992px){
       .card{
-        width: 50%;
+        width: 40%;
       }
     }
-    @media(max-width:425px){
+    @media(min-width:425px)and(max-width:767){
       .card{
         width: 100%;
       }
     }
     .card-title {
-      font-size: 25px
+      font-size: 35px;
     }
 
     .card-text {
       text-align: left;
+      font-size: 15px;
     }
-    
+    .margin-text{
+      margin-top: 20px;
+    }
     .accordion-button {
       font-size: 20px;
     }
@@ -366,7 +391,7 @@
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6">
         <h4>Feluri principale:</h4>
-        <ul>
+        <ul class="font-p">
           <li>File de somon la grătar cu sos de lămâie și ierburi.....50RON</li>
           <li>Burger Savory Bliss.............35 RON</li>
           <li>Piept de pui umplut cu spanac și brânză feta...........35RON</li>
@@ -377,7 +402,7 @@
 
       <div class="col-lg-4 col-md-6 col-sm-12">
         <h4>Salate:</h4>
-        <ul>
+        <ul class="font-p">
           <li>Salată Caesar cu pui................................30RON</li>
           <li>Salată de quinoa cu avocado și rodii................32RON</li>
           <li>Salată de rucola cu pere și brânză gorgonzola.......27RON</li>
@@ -391,7 +416,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
           <h4>Alcoolice</h4>
-          <ul>
+          <ul class="font-p">
             <li>Argiano Brunello di Montalcino.................450RON</li>
             <li>Occidental-Kistler Vineyards 'Freestone-Occidental' Pinot Noir......380RON</li>
             <li>Bloody Mary........35RON</li>
@@ -403,7 +428,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-12">
           <h4>Non-alcoolice</h4>
-          <ul>
+          <ul class="font-p">
             <li>Espresso.............10RON</li>
             <li>Americano............12RON</li>
             <li>Cappuccino...........15RON</li>
@@ -429,7 +454,7 @@
 
         <div class="col-lg-6 col-md-6 col-sm-12">
 
-          <ul>
+          <ul class="font-p">
             <li>Tiramisu.................25RON</li>
             <li>Cheesecake...............28RON</li>
             <li>Lava Cake................30RON</li>
@@ -448,7 +473,7 @@
     <h2>Recomandările noastre</h2>
     </div>
     <div class="row">
-      <div class="card" class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card" class="col-lg-3 col-md-6 col-sm-12" >
         <img src="ramen.jpg" class="card-img-top" alt="ramen cu ou, carne și porumb.">
         <div class="card-body">
           <h3 class="card-title">Ramen</h3>
@@ -456,17 +481,16 @@
             Nou!
             <span class="visually-hidden">produs nou</span>
           </span>
-          <p class="card-text">
-            Ramenul este o supă japoneză cunoscută pentru gustul său bogat, compusă din tăiței, bulion savuros și
-            diverse garnituri.</p>
-          <a class="btn">45 RON</a>
+          <p class="card-text" >
+            Ramenul este o supă japoneză delicioasă, formată din tăiței de grâu, supă aromată și toppinguri variate, precum carne, ouă marinate, nori, ceapă verde sau legume.</p>
+          <a class="btn" >45 RON</a>
         </div>
       </div>
 
-      <div class="card" class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card" class="card-margin" class="col-lg-3 col-md-6 col-sm-12">
         <img src="fish.jpg" class="card-img-top" alt="file de somon la grătar cu roșii și frunze de salată">
         <div class="card-body">
-          <h3 class="card-title">File de somon la grătar</h3>
+          <h3 class="card-title">File de somon</h3>
           <p class="card-text">Este o opțiune perfectă pentru o masă echilibrată și gustoasă, potrivită atât pentru
             prânz cât și pentru cină.</p>
           <a class="btn">50 RON</a>
@@ -479,7 +503,7 @@
           <h3 class="card-title">Latte cu sirop de caramel</h3>
           <p class="card-text">Un latte cu sirop de caramel este o băutură delicioasă și reconfortantă, perfectă pentru
             a-ți indulci ziua.</p>
-          <a class="btn">20 RON</a>
+          <a class="btn" >20 RON</a>
         </div>
       </div>
 
@@ -493,7 +517,7 @@
           </span>
           <p class="card-text">Tortul "Lapte de Pasăre" este un desert delicat cunoscut și sub denumirea de "Ptichye
             Moloko".</p>
-          <a class="btn">25 RON</a>
+          <a class="btn" >25 RON</a>
         </div>
       </div>
     </div>
@@ -509,7 +533,7 @@
         </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <ul>
+            <ul class="font-p">
               <li>Zona de Joacă: Dotată cu jucării educative, cuburi de construit, puzzle-uri și
                 alte jocuri interactive care încurajează creativitatea și dezvoltarea copiilor.</li>
               <li>Colțul de Lectură: Un loc liniștit cu perne confortabile și o selecție variată de cărți pentru toate
@@ -529,7 +553,7 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <ul>
+            <ul class="font-p">
               <li>Supraveghere: Personal calificat și prietenos asigură supravegherea copiilor, garantând siguranța și
                 bunăstarea lor.</li>
               <li>Mobilier: Mobilier ergonomic și sigur, adaptat pentru copii, pentru a preveni orice accident.</li>
@@ -547,7 +571,7 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <ul>
+            <ul class="font-p">
               <li>Spațiu de Relaxare: O zonă de odihnă pentru cei mici care au nevoie de o pauză după joacă.</li>
               <li>Evenimente Speciale: Organizăm activități tematice și ateliere de creație în anumite zile pentru a
                 oferi copiilor o experiență de neuitat.</li>
@@ -568,12 +592,14 @@
     <div class="row">
       <div class="col-lg-6" >
         <h3>Orar</h3>
+        <div class="font-p">
         <ul class="alb">
           <li>Luni-Joi: 10:00-22:00</li>
           <li>Vineri: 10:00-23:00</li>
           <li>Sâmbătă: 09:00-23:00</li>
           <li>Duminică: 09:00-21:00</li>
         </ul>
+        </div>
         <div class="loc">
         <div class="icon">
           <a href="https://web.whatsapp.com/" target="_blank"><img src="phone-call.png"
@@ -602,7 +628,7 @@
         <div class="more">
           <div class="contact">
             <h2>Savory Bliss Restaurant</h2>
-            <ul>
+            <ul class="font-p">
               <li><a href="https://web.whatsapp.com/" target="_blank">+40547583723</li>
               <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">contact@savorybliss.ro</a></li>
               <a href="https://www.google.com/maps/place/Breb/@47.7449193,23.8761232,3536m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4737c9161d8e7d8b:0x3b54e4a428598149!8m2!3d47.7416825!4d23.8993017!16s%2Fg%2F121kq81r?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
